@@ -1,0 +1,246 @@
+@charset "utf-8";
+nav
+{
+    width:100%;
+    height:70px;
+    background-color:white;
+    min-width:1024px;
+    box-shadow:0 1px 10px rgba(0,0,0,0.3);
+    position:relative;
+    z-index:9999;
+
+}
+body,h1,ul,li,p,h2,figure{
+margin:0;
+    padding:0;
+}
+h1
+{
+    text-indent:-9999px;
+    float:left;
+}
+body{
+
+}
+ul
+{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+nav section
+{
+    height:70px;
+    width:1296px;
+    background-color: #333;
+    margin:0 auto;
+}
+nav section ul{
+
+    float:right;
+margin-left:100px;
+
+}
+nav section ul li {
+
+line-height: 70px;
+    width:140px;
+    height: 70px;
+    float: left;
+
+    text-align: center;
+
+
+}
+nav section ul li a:link{
+
+    color: white;
+
+
+}
+nav section ul li a:hover{
+
+    color: white;
+    background-color:#000;
+
+}
+nav section ul li a:visited{
+
+    color: white;
+
+
+}
+nav section ul li a
+{
+
+    display:block;
+}
+.active{
+
+    color: white;
+    background-color:#000;
+
+}
+.search
+{
+
+
+background-image:url(/newCity.jpeg);
+
+
+margin:0 auto;
+}
+#contain
+{
+    width:1296px;
+    margin:0 auto;
+    position:relative;
+}
+#myPicId
+{
+    float:left;
+    width:1296px;
+    height: 685px;
+
+    margin:0 auto;
+    min-width:1296px;
+
+
+}
+#sousuo
+{
+
+    width:500px;
+    height: 54px;
+    background-color: black;
+    opacity: 0.6;
+
+    margin-top:300px;
+    margin-left:320px;
+    border-radius: 10px;
+    position:absolute;
+
+}
+
+#forCity
+{
+    position:absolute;
+    float:left;
+    width:400px;
+    height:40px;
+    margin:4px 8px;
+    padding:0;
+vertical-align: middle;
+    border-radius: 10px;
+    font-size: 16px;
+
+}
+#city{
+
+    position:absolute;
+    float:left;
+
+    padding:0;
+    width:70px;
+    height:40px;
+    vertical-align: middle;
+    margin:8px 420px;
+    border-radius: 10px;
+    outline: none;
+}
+#tour
+{
+    clear:both;
+    width:1024px;
+
+
+    margin:30px auto;
+    text-align:center;
+
+}
+.center
+{
+    text-align: center;
+
+}
+#whereToTour
+{
+    font-size: 45px;
+    letter-spacing: 2px;
+    color:#666;
+    margin:10px 0;
+
+
+}
+#tour .center p{
+    margin: 10px 0;
+    color:#666;
+}
+figure {
+
+    border: 1px solid #dddddd;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 4px;
+    width:315px;
+    text-align:left;
+    position:relative;
+}
+figure img
+{
+    vertical-align:middle;
+
+}
+figcaption
+{
+
+    color:#777;
+    font-size:14px;
+    line-height: 1.5;
+    letter-spacing:1px;
+    padding:7px 0 5px 0;
+
+
+}
+.title
+{
+    font-weight: normal;
+    color: #333333;
+
+}
+.pleased
+{
+    float:right;
+    color: #999999;
+   font-size: 13px;
+    font-style:normal;
+    position:relative;
+    top:5px;
+    right:5px;
+}
+.price
+{
+    color: #ff6600;
+    font-size:14px;
+}
+.price strong{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.tourType
+{
+    background-color: #59b200;
+    width:90px;
+    height:25px;
+    line-height: 25px;
+    font-size:14px;
+    text-align: center;
+    color:white;
+    position:absolute;
+    top:4px;
+    left: 4px;
+
+
+
+}
